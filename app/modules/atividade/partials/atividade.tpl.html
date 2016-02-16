@@ -1,0 +1,15 @@
+<table class="table table-striped">
+	<tr>
+		<th>Código</th>
+		<th>Modulo</th>
+		<th>Titulo</th>
+		<th>Ativo</th>
+	</tr>
+	
+	<tr ng-repeat="atividade in atividades">
+		<td>{{atividade.id}}</td>
+		<td>{{atividade.modulo.titulo}}</td>
+		<td>{{atividade.titulo}}</td>
+		<td>{{atividade.ativo}}</td>
+	</tr>
+</table>
